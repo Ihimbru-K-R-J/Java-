@@ -10,12 +10,22 @@ public class TheList {
 
     public static void main(String[] args){
 
+        List students = new ArrayList();
+
+        students.add("Ihimbru");
+        students.add("Kanyimi");
+        students.add("Peter");
+        students.remove(1);
+        System.out.println(students);
 
 
 
 
 
-        
+
+
+
+
 
 
 
