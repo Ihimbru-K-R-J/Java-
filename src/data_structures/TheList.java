@@ -10,6 +10,17 @@ public class TheList {
 
     public static void main(String[] args){
 
+
+
+
+
+
+        
+
+
+
+
+
         List lang = new ArrayList();
         lang.add("Java");
         lang.add("python");
