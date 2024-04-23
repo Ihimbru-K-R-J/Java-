@@ -18,6 +18,11 @@ public class TheList {
         students.remove(1);
         System.out.println(students);
 
+        for(Object s : students){
+
+            System.out.println(s);
+        }
+
 
 
 
@@ -49,7 +54,7 @@ public class TheList {
         ages.add(20);
         ages.add(19);
         ages.remove(0);
-        //ages.add("s"); cannot go cos i've declared the type explicitely
+        //ages.add("s"); cannot go cos i've declared the type explicitly
 
         System.out.println(ages.contains(22));
 
