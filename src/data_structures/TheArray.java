@@ -6,6 +6,28 @@ public class TheArray {
 
     public static void main(String[] args){
 
+        String[] courses = new String[13];
+
+        courses[0] = "Machine learning";
+        courses[1] = "Intelligent agents";
+        courses[2] = "Embedded systems design";
+        courses[3] = "Data analytics and mining";
+        courses[4] = "Advanced Computer Networks";
+        courses[5] = "Embedded Operating Systems";
+        courses[6] = "Computer security";
+        courses[9] = "Research project";
+        courses[10] = "Computer vision";
+
+        for(Object course : courses){
+            System.out.println(course);
+
+        }
+
+
+
+
+
+
 
         String[] fruits = new String[5];
 

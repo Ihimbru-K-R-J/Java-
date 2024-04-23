@@ -10,6 +10,8 @@ public class TheList {
 
     public static void main(String[] args){
 
+        List<Integer> Ints = new ArrayList<>();
+
         List students = new ArrayList();
 
         students.add("Ihimbru");
