@@ -32,6 +32,7 @@ public class ArrayOfPositiveNumOnly {
     }
 
 
+
     public static void main(String[] args){
         ArrP negativeArr = new ArrP();
         negativeArr.add(1);
